@@ -218,6 +218,8 @@ public struct ColorConverter {
     }
 }
 
+
+
 extension ColorConverter {
     
     /// Detect the format of a color string

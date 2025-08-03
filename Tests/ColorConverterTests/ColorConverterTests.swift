@@ -484,4 +484,5 @@ final class ColorConverterTests: XCTestCase {
             }
         }
     }
+    
 }
