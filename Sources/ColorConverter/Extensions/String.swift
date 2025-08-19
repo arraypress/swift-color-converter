@@ -10,6 +10,7 @@ import Foundation
 // MARK: - String Extensions
 
 internal extension String {
+    
     /// Normalized color string (trimmed)
     var normalizedColor: String {
         return self.trimmingCharacters(in: .whitespacesAndNewlines)
@@ -19,4 +20,5 @@ internal extension String {
     func matches(_ pattern: String) -> Bool {
         return range(of: pattern, options: .regularExpression) != nil
     }
+    
 }

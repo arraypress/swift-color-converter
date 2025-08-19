@@ -5,7 +5,7 @@
 //  Created by David Sherlock on 03/08/2025.
 //
 
-
+import Foundation
 
 /// Supported color formats for conversion
 public enum ColorFormat: String, CaseIterable, Sendable {

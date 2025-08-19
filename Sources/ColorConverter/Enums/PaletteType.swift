@@ -5,6 +5,7 @@
 //  Created by David Sherlock on 03/08/2025.
 //
 
+import Foundation
 
 /// Types of color palettes that can be generated
 public enum PaletteType: String, CaseIterable, Sendable {
